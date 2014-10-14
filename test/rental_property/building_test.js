@@ -109,7 +109,7 @@ describe("Building", function(){
         expect(myUnit.available()).to.eql(false);
       });
 
-      it("should not remove a tenant from a unit not included in @units", function(){
+      it("should not remove a <te></te>nant from a unit not included in @units", function(){
         myBuilding.units = [];
         myBuilding.removeTenant(myUnit, tenant);
         expect(myUnit.available()).to.eql(false);
